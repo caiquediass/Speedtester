@@ -5,6 +5,8 @@ O SpeedTester, como um programa CLI, pode ser uma opção mais simples e leve em
 
 
 
+Necessita pip install speedtest-cli
+
 
 
 /caique
