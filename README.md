@@ -1,7 +1,9 @@
 ﻿# Speedtester
-The SpeedTester, as a CLI program, can be a simpler and lighter option in terms of resources for users 
-who prefer a more basic and straightforward solution. It can still be a valuable tool for identifying internet 
-connection quality in situations where a more elaborate graphical interface is not necessary.
+
+
+O SpeedTester, como um programa CLI, pode ser uma opção mais simples e leve em termos de recursos para usuários que preferem uma solução mais básica e direta. Ele ainda pode ser uma ferramenta valiosa para identificar a qualidade da conexão de internet em situações onde não é necessário uma interface gráfica mais elaborada.
+
+
 
 
 
