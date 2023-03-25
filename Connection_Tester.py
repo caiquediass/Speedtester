@@ -2,19 +2,19 @@ import speedtest
 
 test = speedtest.Speedtest()
 
-print("Loading server list...")
+print("Carregando a Lista de servidor...")
 test.get_servers()
-print("Choosing best server...")
+print("Escolhendo o melhor Servidor...")
 best = test.get_best_server()
 
-print(f"Found: {best['host']} located in {best['country']}")
+print(f"Encontrado: {best['host']} Localizado Em {best['host']}")
 
-print("Performing download test...")
+print("Otimizando O Teste De Download...")
 download_result = test.download()
-print("Performing upload test...")
+print("Otimizando O Teste De Upload...")
 upload_result = test.upload()
 ping_result = test.results.ping
 
-print(f"Download speed: {download_result / 1024 / 1024:.2f}Mbit/s")
-print(f"Upload speed: {upload_result / 1024 / 1024:.2f}Mbit/s")
+print(f"Download Velocidade: {download_result / 1024 / 1024:.2f}Mbit/s")
+print(f"Upload Velocidade: {upload_result / 1024 / 1024:.2f}Mbit/s")
 print(f"Ping: {ping_result}ms")
